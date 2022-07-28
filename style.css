@@ -1,11 +1,30 @@
 * {
     box-sizing: border-box;
-    background-color: black;
-    height: 100vh;
-    overflow: hidden;
 }
-/* .game-wrapper {
+
+body {
+    background-color: black;
+    color: white;
+    height: 98vh;
+    /* overflow: hidden; */
+}
+
+.wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+    flex-direction: row;
+}
+
+.large {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 1em;
+}
+
+a {
+    padding: 20px;
+}
+
+img {
+    height: 150px;
+    width: 250px;
+}
